@@ -1,9 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import config from './src/config/index.js'; 
-import apiRoutes from './src/api/index.js'; 
-import agendaService from './src/services/agenda.service.js'; 
+import config from './config/index.js'; 
+import apiRoutes from './api/index.js'; 
+import agendaService from './services/agenda.service.js'; 
 
 const app = express();
 
