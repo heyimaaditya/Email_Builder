@@ -153,6 +153,7 @@ Drag "Lead Source", "Cold Email", and "Wait/Delay" nodes from the "Node Palette"
 Connect nodes by dragging from a source handle (bottom) to a target handle (top).
 
 ### Click on nodes to configure them:
+
 Cold Email: Enter the recipient email address (use your test/Ethereal email!), subject, and body.
 Wait/Delay: Enter the duration (currently configured for minutes for easier demo; check frontend/src/components/CustomNodes/WaitNode.js for the current unit).
 Ensure your flow starts with a "Lead Source" node and proceeds through Wait/Delay nodes to Cold Email nodes.
