@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:3000' 
+  origin: config.corsOrigin
 }));
 app.use(express.json()); // Parse JSON body
 
