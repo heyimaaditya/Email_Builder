@@ -2,6 +2,10 @@
 
 A full-stack web application allowing users to visually design and implement email marketing sequences using a drag-and-drop flowchart interface. The application saves the flow structure and automatically schedules and sends emails based on the sequence and defined delays.
 
+## Demo Video:
+
+https://youtu.be/5Av1wH7MMSg
+
 ## Features
 
 *   **Visual Flowchart Interface:** Build email sequences using a drag-and-drop interface powered by React Flow.
